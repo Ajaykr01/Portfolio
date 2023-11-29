@@ -1,0 +1,80 @@
+body {
+    background: url(./images/bg.jpg)no-repeat center center/cover;
+}
+
+.border-box {
+    justify-content: center;
+    display: flex
+}
+
+.form-container {
+    padding: 180px;
+}
+
+h2 {
+    color: white;
+}
+
+#email {
+    width: 25px;
+    margin: 20px 0px -8px;
+    filter: brightness(0) invert();
+}
+
+#unlock {
+    width: 25px;
+    filter: brightness(0) invert();
+}
+
+input {
+    color: white;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+h1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 300px;
+    font-size: 25px;
+    height: 70px;
+    background-color: orange;
+    cursor: pointer;
+}
+
+h1:hover {
+    background-color: black;
+    color: aqua;
+    transition: 0.5s;
+    border-radius: 30px;
+    box-shadow: 0 0 10px #03e9f4,
+        0 0 0 10px #03e9f4,
+        0 0 0 10px #03e9f4,
+        0 0 0 10px #03e9f4;
+}
+
+.forgot {
+    color: white;
+    cursor: pointer;
+    font-weight: 10;
+    width: 50px;
+}
+
+.forgot:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+a {
+    margin: -40px 0px;
+    text-decoration: none;
+    color: white;
+    float: right;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
